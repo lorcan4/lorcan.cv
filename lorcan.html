@@ -10,7 +10,7 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"rel="stylesheet'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
     <link rel="stylesheet" href="styles.css" />
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
   </head>
   <body>
@@ -50,7 +50,7 @@
       <!--  About  -->
       <section class="about" id="about">
         <div class="max-width">
-          <h2 class="title" >About Me</h2>
+          <h2 class="title" data-aos="fade-up">About Me</h2>
           <div class="about-content">
             <div class="column left">
               <img src="https://source.unsplash.com/626x626/?profile" alt="Profile Image 626x626">
@@ -77,23 +77,23 @@
       <!-- Services -->
       <section class="services" id="services">
         <div class="max-width">
-          <h2 class="title">My services</h2>
+          <h2 class="title"  data-aos="fade-up">My services</h2>
           <div class="serv-content">
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="box">
                 <i class="fas fa-laptop-code"></i>
                 <div class="text">Web Design</div>
                 <p>Your Next Web Developer, who is working in Shopify Dropshipping Stores, High Converting Ecommerce stores, Product Page also having Custom code, liquid template design.</p>
               </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="box">
                 <i class="fas fa-user-secret"></i>
                 <div class="text">User Secret</div>
                 <p>I ensures that, there is no sensitive data included in the source code and are stored outside of the project folder. And all the data which is stored by User Secrets is not encrypted.</p>
               </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="box">
                 <i class="fas fa-code"></i>
                 <div class="text">Apps Design</div>
@@ -243,8 +243,8 @@
           <h2 class="title">Contact Me</h2>
           <div class="contact-content">
             <div class="column left">
-              <div class="text">Get in Touch</div>
-              <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be a part of your visions. Email me with any questions or inquiries. I'll happy to answer your questions and set up a meeting with you.</p>
+              <div class="text" data-aos="fade-up">Get in Touch</div>
+              <p data-aos="fade-up">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be a part of your visions. Email me with any questions or inquiries. I'll happy to answer your questions and set up a meeting with you.</p>
               <div class="icons">
 
                 <a href="#">
@@ -395,7 +395,9 @@
         }
     });
 </script>
-
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
